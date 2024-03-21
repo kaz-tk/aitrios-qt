@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aitrios-qt"
+version = "0.1.0"
+description = ""
+authors = ["kazushige takeuchi <kazushige.takeuchi@sony.com>"]
+readme = "README.md"
+packages = [{include = "aitrios_qt", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+dependency-injector = "^4.41.0"
+pyside6 = "^6.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
